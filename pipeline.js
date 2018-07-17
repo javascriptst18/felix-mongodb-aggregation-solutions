@@ -1,14 +1,13 @@
 // Väljer rätt databas att leta i
 use savanna;
 
-/*
-Du hittar aggregate-funktionen längst ner.
-Ändra 'pipelineX' så att X motsvarar den lösning du vill köra.
-I terminalen (inte i mongoshell) skriv in:
-  mongo < pipeline.js
-notera att du måste stå i mappen felix-mongodb-aggregation-solutions 
-för att kommandot ska funka.
-*/
+
+// Du hittar aggregate-funktionen längst ner.
+// Ändra 'pipelineX' så att X motsvarar den lösning du vill köra.
+// I terminalen (inte i mongoshell) skriv in:
+// mongo < pipeline.js
+// notera att du måste stå i mappen felix-mongodb-aggregation-solutions 
+// för att kommandot ska funka.
 
 // Uppgift 3.1
 // Hur många djur finns det av varje färg?
