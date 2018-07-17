@@ -26,6 +26,7 @@ mongoimport --drop -d savanna -c safari data/safari.json
 ## Använd (välj ett alternativ)
 
 **1. Mongoshell**
+
 Öppna ett nytt terminalfönster och starta MongoDB's shell med kommandot:
 ```bash
 mongo
@@ -33,6 +34,7 @@ mongo
 Copy/paste därefter lösningarna från `solutions.js` in i terminalfönstret för att se resultatet.
 
 **1. Terminalen**
+
 Öppna ett nytt terminalfönster (mongod måste vara igång) och skriv följande kommando:
 ```bash
 mongo < pipeline.js
