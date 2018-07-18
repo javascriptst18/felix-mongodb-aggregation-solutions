@@ -47,4 +47,4 @@ För att se resultatet av de olika lösningarna får du gå in i filen `pipeline
 ```json
 db.safari.aggregate(pipeline1).pretty();
 ```
-Här skickar vi in vår pipeline (en array med vår query) till aggregation-funktionen. Ändra *pipeline1* till det lösningsnummer du vill köra, e.g. *pipeline4*, *pipeline11* osv.
+Här skickar vi in vår pipeline (en array med vår query) till aggregation-funktionen. Ändra *pipeline1* till det lösningsnummer du vill köra, e.g. *pipeline4*, *pipeline11* osv. Spara ändringarna i filen och kör sedan kommandot `mongo < pipeline.js` igen för att se det nya resulatet.
