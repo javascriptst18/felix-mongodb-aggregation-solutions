@@ -39,6 +39,8 @@ Copy/paste därefter lösningarna från `solutions.js` in i terminalfönstret f�
 ```bash
 mongo < pipeline.js
 ```
+Du måste stå i mappen `felix-mongodb-aggregation-solutions` för att det ska fungera.
+
 > Om allt fungerar som det ska kommer terminalen visa resultatet av första lösningen. Notera att filen `pipeline.js` inte tolkas som en JavaScript-fil av terminalen, utan bara som en textfil. Du kan döpa om filen till vad som helst, e.g. `hello.world` och det ska fortfarande fungera.
 
 För att se resultatet av de olika lösningarna får du gå in i filen `pipeline.js` och leta upp följande kod (ligger längst ner):
