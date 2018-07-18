@@ -10,13 +10,13 @@ git clone https://github.com/javascriptst18/felix-mongodb-aggregation-solutions.
 ```bash
 cd felix-mongodb-aggregation-solutions
 ```
-3. Starta MongoDB's daemon med följande kommando i terminalen:
+3. Öppna ett nytt terminalfönster och starta MongoDB's daemon med följande kommando:
 ```bash
 mongod
 ```
 > Om du sitter på Mac och får ett *error* beror det förmodligen på att du inte skrev in `sudo bash` först för att bli root.
 
-4. Skriv in följande kommando i terminalen (inte i mongoshell)
+4. Skriv in följande kommando i terminalen (inte i mongoshell) i det första terminalfönstret
 ```bash
 mongoimport --drop -d savanna -c safari data/safari.json
 ```
